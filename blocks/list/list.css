@@ -1,0 +1,26 @@
+.list {
+	max-width: 690px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.5;
+}
+
+@media screen and (max-width: 1279px) {
+	.list {}
+}
+
+@media screen and (max-width: 1023px) {
+	.list {
+		max-width: 720px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.list {
+		max-width: calc(100% - 32px);
+		margin: 0 auto;
+	}
+}

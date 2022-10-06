@@ -1,0 +1,23 @@
+.place__pic {
+	max-width: 460px;
+	object-fit: contain;
+	grid-area: pic;
+}
+
+@media screen and (max-width: 1279px) {
+	.place__pic {
+		max-width: 440px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.place__pic {
+		max-width: 340px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.place__pic {
+		max-width: 100%;
+	}
+}
