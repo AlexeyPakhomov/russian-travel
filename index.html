@@ -57,8 +57,9 @@
       </ul>
     </section>
     <!-- Начало секции, блок photo-grid -->
-    <div>
-      <ul class="photo-grid list">
+    <section class="photo-grid" aria-label="without-a-title">
+      <!-- Указывая aria-label в валидаторе пропадает ошибка того, что у данного section нет h2-h6 -->
+      <ul class="photo-grid__list list">
         <li>
           <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="Вид из вагона поезда">
         </li>
@@ -96,10 +97,10 @@
           <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="Природный парк Ергаки">
         </li>
       </ul>
-
-    </div>
+    </section>
     <!-- Начало секции, блок places -->
-    <div class="places">
+    <section class="places" aria-label="without-a-title">
+      <!-- Указывая aria-label в валидаторе пропадает ошибка того, что у данного section нет h2-h6 -->
       <article class="place">
         <h2 class="place__title">Куршская коса</h2>
         <img class="place__pic" src="./images/place-kosa.jpg" alt="Куршская коса">
@@ -198,7 +199,7 @@
             в&nbsp;паре метров от&nbsp;земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
         </div>
       </article>
-    </div>
+    </section>
     <!-- Начало секции, блок cover -->
     <section class="cover">
       <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
